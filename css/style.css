@@ -295,6 +295,11 @@ footer .socials a {
   margin: 1rem;
 }
 
+footer .credit a {
+  color: #f4ce14;
+}
+
+
 /* Media Queries */
 
 /* Laptop */
