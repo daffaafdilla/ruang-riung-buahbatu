@@ -28,16 +28,54 @@
         <a href="#">Home</a>
         <a href="#about">Tentang Kami</a>
         <a href="#menu">Menu</a>
+        <a href="#products">Produk</a>
         <a href="#contact">Contact</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
-    </nav>
 
+      <!-- Search Form start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form end -->
+
+      <!-- Shopping Cart start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/products/eggtoast.jpg" alt="toast" />
+          <div class="item-detail">
+            <h3>Toast</h3>
+            <div class="item-price">IDR 8k</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/eggtoast.jpg" alt="toast" />
+          <div class="item-detail">
+            <h3>Toast</h3>
+            <div class="item-price">IDR 8k</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/products/eggtoast.jpg" alt="toast" />
+          <div class="item-detail">
+            <h3>Toast</h3>
+            <div class="item-price">IDR 8k</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart end -->
+    </nav>
     <!-- Navbar end -->
 
     <!-- Hero Section Start -->
@@ -85,37 +123,124 @@
       </p>
       <div class="row">
         <div class="menu-card">
-          <img src="img/roti.jpg" alt="Roti Bakar" class="menu-card-img" />
+          <img src="img/menu/roti.jpg" alt="Roti Bakar" class="menu-card-img" />
           <h3 class="menu-card-title">- Roti Bakar -</h3>
           <p class="menu-card-price">IDR 5k</p>
         </div>
 
         <div class="menu-card">
-          <img src="img/indomie.jpg" alt="Indomie" class="menu-card-img" />
+          <img src="img/menu/indomie.jpg" alt="Indomie" class="menu-card-img" />
           <h3 class="menu-card-title">- Indomie -</h3>
           <p class="menu-card-price">IDR 7k</p>
         </div>
 
         <div class="menu-card">
-          <img src="img/susu.jpg" alt="Susu" class="menu-card-img" />
+          <img src="img/menu/susu.jpg" alt="Susu" class="menu-card-img" />
           <h3 class="menu-card-title">- Susu -</h3>
           <p class="menu-card-price">IDR 7k</p>
         </div>
 
         <div class="menu-card">
-          <img src="img/cappucino.jpg" alt="Coffee" class="menu-card-img" />
+          <img
+            src="img/menu/cappucino.jpg"
+            alt="Coffee"
+            class="menu-card-img"
+          />
           <h3 class="menu-card-title">- Cappucino -</h3>
           <p class="menu-card-price">IDR 7k</p>
         </div>
 
         <div class="menu-card">
-          <img src="img/kentang.jpg" alt="French Fries" class="menu-card-img" />
+          <img
+            src="img/menu/kentang.jpg"
+            alt="French Fries"
+            class="menu-card-img"
+          />
           <h3 class="menu-card-title">- Kentang Goreng -</h3>
           <p class="menu-card-price">IDR 12k</p>
         </div>
       </div>
     </section>
-    <!-- About Section end -->
+    <!-- Menu Section end -->
+
+    <!-- Products Section start -->
+    <section class="products" id="products">
+      <h2><span>Produk Unggulan</span> Kami</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dolores
+        aut omnis ducimus eius sint!
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/eggtoast.jpg" alt="toast" />
+          </div>
+          <div class="product-content">
+            <h3>Toast</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 8k <span>IDR12k</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/eggtoast.jpg" alt="toast" />
+          </div>
+          <div class="product-content">
+            <h3>Toast</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 8k <span>IDR12k</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/products/eggtoast.jpg" alt="toast" />
+          </div>
+          <div class="product-content">
+            <h3>Toast</h3>
+            <div class="product-stars">
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 8k <span>IDR12k</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Section end -->
 
     <!-- Contact Section start -->
     <section id="contact" class="contact">
@@ -166,6 +291,36 @@
       </div>
     </footer>
     <!-- Footer end -->
+
+    <!-- Modal Box Item Detail start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/products/eggtoast.jpg" alt="toast" />
+          <div class="product-content">
+            <h3>Toast</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, aut
+              qui reiciendis eveniet dolor iste asperiores dicta aliquid id.
+              Expedita, excepturi maxime. Labore, libero eum.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 8k <span>IDR12k</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>Add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal Box Item Detail end -->
 
     <!-- Feather Icons -->
     <script>
